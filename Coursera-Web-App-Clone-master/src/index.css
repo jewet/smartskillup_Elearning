@@ -1,0 +1,501 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  margin: 0;
+  font-family: Roboto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat;
+}
+
+/* My CSS Code*/
+
+.navbar {
+  position: fixed;
+  z-index: 100;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  background-color: white;
+  display: flex;
+  padding: 0.875em;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+
+.coursera-logo {
+  width: 8em;
+  height: auto;
+}
+
+.navbar-btn {
+  background-color: #0056d2 !important;
+  height: 42px;
+  align-self: center;
+  /* margin-left: 10px !important; */
+}
+
+.navbar-btn2 {
+  height: 42px;
+  align-self: center;
+  /* margin-left: 10px !important; */
+}
+
+.search-bar {
+  align-self: center;
+  vertical-align: bottom !important;
+}
+
+.search-bar > label {
+  font-size: 0.875rem !important;
+}
+
+.search-bar > div > input {
+  padding: 0.875em !important;
+}
+
+.search-bar-btn {
+  background-color: #0056d2 !important;
+  z-index: 10;
+  left: -5px;
+  height: 47px;
+  top: 7px;
+  position: relative;
+}
+
+.nav-list > li {
+  display: inline;
+}
+
+.nav-list {
+  align-self: center;
+  padding-left: 0px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  margin-left: 10px;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.nav-list a:hover {
+  text-decoration: underline;
+  color: #0056d2;
+}
+
+.header {
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  margin-top: 120px;
+  justify-content: center;
+}
+
+.header-div1 {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.header-div1 > h1 {
+  font-size: 3rem;
+  margin-bottom: 0px;
+}
+
+.header-div1 > p {
+  font-size: 1.5rem;
+}
+
+.header-div2 > img {
+  width: 80%;
+  height: auto;
+}
+
+.header-div2 {
+  align-self: center;
+  text-align: center;
+}
+
+.article1 {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 2em 0em;
+  align-items: center;
+  background-color: rgb(235, 235, 235);
+}
+
+.article1-div {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.article1-div > ul > li {
+  display: inline;
+  margin-left: 15px;
+}
+
+.article1-div > ul {
+  padding: 0px;
+}
+
+.article2 {
+  padding: 1em;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article2 > h2 {
+  font-size: 2rem;
+}
+
+.article2-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+.article2-section-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  text-align: center;
+}
+
+.article3 {
+  display: flex;
+  flex-direction: row;
+  padding: 2em 0em;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: rgb(235, 243, 255);
+}
+
+.article3-section {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  margin-left: 20px;
+}
+
+.article3-section > h2 {
+  font-size: 2rem;
+}
+
+.article3-section > p {
+  font-size: 1.5rem;
+}
+
+.signup-form-section {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+.signup-form-section > h2 {
+  font-size: 2rem;
+  opacity: 0.8;
+  margin-bottom: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.article4 {
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.article4 > h2 {
+  font-size: 2.5rem;
+}
+
+.article4 h4 {
+  font-size: 1.2rem;
+}
+
+.article4 h3 {
+  font-size: 2rem;
+}
+
+.article4 > section {
+  margin-top: 30px;
+}
+
+.article4 > img {
+  margin-top: 30px;
+}
+
+#coursera-community-section {
+  margin-top: 100px;
+}
+
+#coursera-community-section > h2 {
+  font-size: 2.5rem;
+}
+
+#coursera-community-section > p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.article4 p {
+  font-size: 1.3rem;
+}
+
+.thumbs-wrapper {
+  text-align: center;
+}
+
+.carousel-root {
+  margin-top: 100px;
+}
+
+.article5 {
+  padding: 1em;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(249, 247, 239);
+}
+
+.article5 > img {
+  width: 60%;
+  height: auto;
+  align-self: flex-start;
+}
+
+.article5 > section {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin-left: 80px;
+}
+
+.article5 > section > h2 {
+  font-size: 2.5rem;
+}
+
+.article5 > section > p {
+  font-size: 1.2rem;
+}
+
+.btnDivider {
+  height: 40px;
+  vertical-align: middle;
+  width: 2px;
+  background-color: rgb(187, 187, 187);
+  display: inline-block;
+}
+
+.profile-main {
+  background-color: rgb(241, 241, 241);
+  margin-bottom: -100px;
+  padding-bottom: 2em;
+  
+}
+
+.profile-main-article {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+  background-image: url(https://s3.amazonaws.com/coursera_assets/growth_account_profile/account_bg_black2.png);
+}
+
+.profile-main-article > * {
+  color: white;
+}
+
+.achievements-article {
+  margin: 20px;
+  padding: 2em;
+  margin-top: 0px;
+  background-color: white;
+  position: relative;
+  bottom: 30px;
+}
+
+.achievements-article-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.achievements-article-section > div {
+  display: flex;
+  flex-direction: row;
+}
+
+.achievements-article-section > div > h2 {
+  font-size: 2rem;
+}
+
+.achievements-article-section > div > a {
+  font-weight: bold;
+  color: black;
+  align-self: center;
+  position: relative;
+  left: 80px;
+}
+
+.achievements-article-section > div > a:hover {
+  text-decoration: underline;
+}
+
+li.MuiListItem-root > button.MuiButtonBase-root {
+  justify-content: flex-start !important;
+}
+
+
+.achievements-article-section2{
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.achievements-article-section2 > div{
+  display: flex;
+  flex-direction: row;
+  padding: 1em;
+  
+}
+
+.achievements-article-section2 > div > i{
+  font-size: 1.8rem;
+  align-self: center;
+  color: rgb(194, 209, 58);
+  margin-right: 10px;
+}
+
+.achievements-article-section2 > div > div{
+  display: flex;
+  flex-direction: column;
+  
+
+}
+
+.achievements-article-section2 > div > div > h6{
+  font-size: .9rem;
+  margin: 0px;
+}
+
+.achievements-article-section2 > div > div > span{
+  opacity: .6;
+}
+
+
+.footer{
+  background-color: transparent;
+  padding: 2em;
+  margin-top: 80px;
+
+}
+
+.footer > div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.coursera-footer-list{
+  list-style-type: none;
+  padding: 0px;
+
+}
+
+.app-img-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-img-div > img{
+  margin: 10px 0px;
+}
+
+.header-social-div{
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
+
+.header-social-div > div{
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.header-social-div > div:hover{
+  transform: translateY(-6%);
+
+}
+
+.header-social-div > div:nth-child(n + 2){
+  margin-left: 10px;
+}
+
+.header-social-div > div > i{
+  color: white;
+  margin-top: 12px;
+  margin-left: 13px;
+}
+
+.footer li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.purchases-article, .updates-article, .accomplishments-article{
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+
+.purchases-article > h2, .updates-article > h2, .accomplishments-article > h2{
+  margin-top: 100px;
+  font-size: 2rem;
+}
+
+.purchases-article > span{
+  margin: 5px 0px;
+}
+
+
+
+.purchases-table{
+  padding: 0em 1em;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
